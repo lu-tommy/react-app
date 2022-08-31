@@ -8,7 +8,8 @@ function App() {
    <>
    <div style={{color:"grey"}}>
     <center>
-    <Logo/>
+      <a href='https://lu-tommy.github.io/react-app/' style={{textDecorationLine:'none'}}><Logo/></a>
+    
     <Welcome/>
     <h1>counter</h1>
     <Counter/>

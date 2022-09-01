@@ -52,5 +52,7 @@
   }
 }
 a,a:visited{
-  color:black;
+  color: #282c34;
+  text-decoration-line: none
+  ;
 }

@@ -9,15 +9,17 @@ function App() {
    <>
    <div style={{color:"grey"}}>
     <center>
-      <Logo/>
+    <Logo/>
+    <Marvin/>
     
-    <Welcome/>
     <h1>counter</h1>
-    <Counter/>
+    
     <h2>
+      <Welcome/>
+      <Counter/>
       More to come soon!
     </h2>
-    <Marvin/>
+    
     </center>
     </div>
     </>

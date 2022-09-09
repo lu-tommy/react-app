@@ -16,15 +16,15 @@ function Marvin() {
 
         <h2>Machine Application</h2>
       <div class='control is-loading is-large'>
-        <textarea class='textarea is-large has-fixed-size' rows="3" readOnly></textarea>
+        <textarea class='textarea is-large has-fixed-size is-focused is-info has' rows="3" readOnly></textarea>
       </div>
 
 
      <br/>
-     <a class='button is-danger' href='https://twitter.com/liltlu3'>RANDOM</a>
+     <a class='button is-danger'>RANDOM</a>
      <br/>
         <a class='button is-link' href='https://twitter.com/liltlu3'>TWITTER</a>
-        <a class='button is-link' href='https://twitter.com/liltlu3'>DISCORD</a>
+        <a class='button is-link'>DISCORD</a>
         
         
         

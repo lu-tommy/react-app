@@ -3,8 +3,12 @@ import Counter from './counter';
 import Logo from './logo';
 import Welcome from './welcome';
 import Marvin from './marvin';
-import React, { Component }  from 'react';
+
+
+import {useState} from 'react';
+
 import 'bulma/css/bulma.min.css';
+import { FirebaseError } from 'firebase/app';
 
 function App() {
   return (
@@ -19,7 +23,7 @@ function App() {
      <body>
     <center>
 
-   
+ 
     <Marvin/>
     
     
@@ -27,7 +31,7 @@ function App() {
  
       More to come soon!
     </h2>
-    
+   
     </center></body>
     </div>
     </>

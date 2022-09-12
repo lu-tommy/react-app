@@ -1,4 +1,5 @@
 import React, { Component }  from 'react';
+
 function Welcome() {
     let name  = window.prompt('Who is visiting: ')
     if (name === null||name === ""||name === " "){
@@ -6,6 +7,8 @@ function Welcome() {
     }
     else{
         wText = ('Welcome '+ name)
+        
+        
     }
     return (
      <>
@@ -15,4 +18,5 @@ function Welcome() {
   }
   
   export default Welcome;
+  
   
